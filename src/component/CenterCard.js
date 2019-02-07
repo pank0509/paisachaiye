@@ -1,5 +1,5 @@
 import React from 'react';
-import './headerStyle.scss';
+import './CenterCard.scss';
 import RightModal from '../component/RightModal';
 
 const userData = [

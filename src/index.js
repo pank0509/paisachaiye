@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import createStore from './Redux/create';
+import createStore from './redux/create';
 import { HashRouter } from 'react-router-dom';
 import ApiClient from './helper/ApiClient';
 import { Provider } from 'react-redux'
