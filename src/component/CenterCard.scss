@@ -13,6 +13,7 @@
 .nameText {
   font-weight: 600;
   margin-top: 20px;
+  padding: 5px;
   margin-bottom: 20px;
 }
 .contact-card {
@@ -27,9 +28,75 @@
   color: white;
 }
 .closeIcons {
-  color: white;
-  font-size: 20px;
+  color: white !important;
+  font-size: 20px !important;
 }
 .modal-header-bg-color {
   background-color: #38445D !important;
+}
+.center-card-header {
+  background-color: #38445D;
+  min-height: 5rem;
+  color: white;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.family-member-card {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+.number-of-family-member {
+  background-color: #00CF71;
+  color: white;
+  margin-top: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.family-text {
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.number-of-family {
+  font-size: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+.family-member-cta {
+  margin-top: 40px;
+  background-color: #FAFAFA;
+}
+.button-style {
+  background-color: #DDF6EB;
+  border: none;
+  padding: 16px;
+  width: 100%;
+  border-bottom-right-radius: 5px;
+}
+.cta-text{
+  padding: 13px;
+  border-top-right-radius: 5px;
+}
+.modal-dialog {
+  width: 30% !important; 
+}
+.envelope-icon {
+  padding: 5px;
+}
+.phone-icon {
+  padding: 5px;
 }
